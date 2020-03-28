@@ -15,4 +15,11 @@ public class TestRobot {
           assert(r.position==5);        
   }
   
+  @Test
+  public void testAvancer() {
+          RobotDynamique r=new RobotDynamique(5);
+          r.avancer();
+          assert(r.position==15);        
+  }
+  
 }
